@@ -1,0 +1,10 @@
+### Options
+OPTIONS http://localhost:1337
+
+### Healthcheck
+POST http://localhost:1337/healthcheck
+Content-Type: application/json
+
+{
+    "name": "test"
+}
